@@ -11,7 +11,7 @@ void setup()
   pinMode(BLUE, OUTPUT);
   pinMode(GREEN, OUTPUT);
   pinMode(RED, OUTPUT);
-  digitalWrite(RED, HIGH);
+  digitalWrite(RED, LOW);
   digitalWrite(GREEN, LOW);
   digitalWrite(BLUE, LOW);
   pinMode(BBLUE, INPUT_PULLUP);  
